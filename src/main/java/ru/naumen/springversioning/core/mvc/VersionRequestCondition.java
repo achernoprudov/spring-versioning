@@ -1,8 +1,8 @@
-package ru.naumen.springversioning.versioning;
+package ru.naumen.springversioning.core.mvc;
 
 import com.sun.istack.internal.Nullable;
 import org.springframework.web.servlet.mvc.condition.RequestCondition;
-import ru.naumen.springversioning.ApiVersion;
+import ru.naumen.springversioning.core.model.ApiVersion;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Collection;

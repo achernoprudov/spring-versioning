@@ -1,4 +1,4 @@
-package ru.naumen.springversioning;
+package ru.naumen.springversioning.core.model;
 
 /**
  * @author achernoprudov

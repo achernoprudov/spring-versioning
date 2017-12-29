@@ -1,11 +1,10 @@
-package ru.naumen.springversioning.versioning;
+package ru.naumen.springversioning.core.mvc;
 
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.web.servlet.mvc.condition.RequestCondition;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
-import ru.naumen.springversioning.ApiVersion;
-import ru.naumen.springversioning.RestVersion;
-import ru.naumen.springversioning.versioning.VersionRequestCondition;
+import ru.naumen.springversioning.core.model.ApiVersion;
+import ru.naumen.springversioning.core.annotation.RestVersion;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

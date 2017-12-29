@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
-import ru.naumen.springversioning.versioning.MappingHandlerMapper;
+import ru.naumen.springversioning.core.mvc.MappingHandlerMapper;
 
 @Configuration
 public class WebConfig extends WebMvcConfigurationSupport
