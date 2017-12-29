@@ -18,13 +18,13 @@ public class CommonController
     @RequestMapping("{version}/foo")
     public ResponseEntity<String> foo(final @PathVariable String version)
     {
-        return ResponseEntity.ok("foo value. version: " + version);
+        return ResponseEntity.ok("foo");
     }
 
     @RestVersion(version = ApiVersion.V2)
     @RequestMapping("{version}/bar")
     public ResponseEntity<String> bar(final @PathVariable String version)
     {
-        return ResponseEntity.ok("bar value. version: " + version);
+        return ResponseEntity.ok("bar");
     }
 }

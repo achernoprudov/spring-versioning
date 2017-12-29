@@ -17,10 +17,6 @@ import java.util.List;
  */
 public class MappingHandlerMapper extends RequestMappingHandlerMapping
 {
-    public MappingHandlerMapper()
-    {
-    }
-
     @Override
     protected RequestCondition<?> getCustomMethodCondition(Method method)
     {
