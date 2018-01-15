@@ -10,6 +10,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * Condition. Used as {@link java.util.function.Predicate} for filtering {@link ApiVersion}
+ *
  * @author achernoprudov
  * @since 26/12/2017
  */
